@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+		*{
+  		  	font-family: 'poppins',sans-serif;
+		 	}
+		 	/* H1 sirve para Welcome*/
+		 	h1{
+		 		font-size: 100px;
+		 	}
+		 	.welcm{
+		 		display: inline-block;
+		 		text-align: center;
+		 		color: #fff;
+		 		position: absolute;
+		 		left: 90em;
+		 		top:12em;
+		 		height:40em;
+		 		width: 5em;
+
+		 	}
+		 	.unitguide{
+		 		display: inline-block;
+		 		text-align: center;
+		 		color: #fff;
+		 		position: absolute;
+		 		left: 3em;
+		 		top:2em;
+		 		height:40em;
+		 		width: 50em;
+
+		 	}
+		 	.linksunits{
+		 		display: inline-block;
+		 		text-align: center;
+		 		color: #fff;
+		 		position: absolute;
+		 		left: 3em;
+		 		top:30em;
+
+		 	}
+		 	.activitiesE{
+		 		display: inline-block;
+		 		text-align: center;
+		 		color: #fff;
+		 		position: absolute;
+		 		left: 3em;
+		 		top:10em;
+
+		 	}
+		 	/* <a> estilo enlaces*/
+		 	a{
+		 		text-decoration: none;
+		 		color:#CDCCCC;
+		 	}/* <h2> estilo para titulos*/		 	
+		 	h2{
+		 		color: #fff;
+		 		text-decoration: underline;
+		 		margin-left: 50px;
+		 		text-size:30px;
+		 	}
+		 	/* esta id es para el estilo de los parrafos*/		 			 	
+		 	#sizeP{
+		 		padding-left: 50px;
+		 		font-size: 25px;
+		 		color: #A6A9A9;
+		 	}	/* editar estilo de los botones */	 	
+		 	input{
+		 		color: #fff;
+		 		border-radius: 15px;
+		 		background: transparent;
+		 		backdrop-filter: blur(15px);
+		 		position: absolute;
+		 		display: inline-block;
+		 		top:27em; 
+		 		left:2em;
+		 		font-size:25px;
+		 	}
+		 	#unit1{
+				font-size:30px;
+				color: #CDCCCC;
+		 	}
+		 	/* Cajas donde se contiene el texto principal del index*/
+		 	.caja1,.caja2,.caja3{
+		 			margin-top:100px ;
+		 		display:inline-block;
+		 		height: 300px;
+		 		width:70em;
+		 		box-sizing: content-box;
+		 		border: 2px solid rgba(255,255,255,0.5);
+		 		border-top-left-radius:15px;
+		 		border-top-right-radius:15px;
+		 		box-shadow: 0px 5px 10px 3px #000;
+		 		margin: 90px 0px 30px 150px;
+		 		background: transparent;
+		 		backdrop-filter: blur(15px); 	
+		 	}
+		 	html{
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('bosque.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#handboy {
+  animation: swing ease-in-out 1.3s infinite alternate;
+  transform-origin: 98% 98%;
+  transform-box: fill-box;
+}
+
+#girllight {
+  animation: swing ease-in-out 1.3s infinite alternate;
+  transform-origin: 0% 97%;
+  transform-box: fill-box;
+}
+
+#hairgirl {
+  animation: swinghair ease-in-out 1.3s infinite alternate;
+  transform-origin: 60% 0%;
+  transform-box: fill-box;
+}
+
+#zero {
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+/*************swing************/
+@keyframes swing {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+/*************swing hair************/
+@keyframes swinghair {
+  0% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+
